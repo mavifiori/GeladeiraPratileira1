@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladeiraPratileira", "..\GeladeiraPratileira\GeladeiraPratileira.csproj", "{A881C800-3FFF-41C3-8914-2C424C1FBEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladeiraPratileira", "..\GeladeiraPratileira\GeladeiraPratileira.csproj", "{2971ADC1-1023-48DF-BD3A-73D0002CAAED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{934FCC96-6340-417C-A323-FB5D2B6365B9} = {934FCC96-6340-417C-A323-FB5D2B6365B9}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladeitaInteligente", "..\GeladeitaInteligente\GeladeitaInteligente.csproj", "{D5318DA3-A030-4615-AC96-62BA5D4478D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladeiraInteligente", "..\GeladeitaInteligente\GeladeiraInteligente.csproj", "{934FCC96-6340-417C-A323-FB5D2B6365B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +16,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A881C800-3FFF-41C3-8914-2C424C1FBEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A881C800-3FFF-41C3-8914-2C424C1FBEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A881C800-3FFF-41C3-8914-2C424C1FBEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A881C800-3FFF-41C3-8914-2C424C1FBEE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5318DA3-A030-4615-AC96-62BA5D4478D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5318DA3-A030-4615-AC96-62BA5D4478D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5318DA3-A030-4615-AC96-62BA5D4478D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5318DA3-A030-4615-AC96-62BA5D4478D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2971ADC1-1023-48DF-BD3A-73D0002CAAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2971ADC1-1023-48DF-BD3A-73D0002CAAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2971ADC1-1023-48DF-BD3A-73D0002CAAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2971ADC1-1023-48DF-BD3A-73D0002CAAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934FCC96-6340-417C-A323-FB5D2B6365B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934FCC96-6340-417C-A323-FB5D2B6365B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934FCC96-6340-417C-A323-FB5D2B6365B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934FCC96-6340-417C-A323-FB5D2B6365B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
